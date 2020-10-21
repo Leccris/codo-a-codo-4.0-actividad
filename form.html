@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title> Arcangel of the army</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/estilos1.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">Acerca de</a>
+                <a href="contact.html">Contacto</a>
+                <a href="form.html">Regístrese</a>
+                <a href="location.html">Sucursuales</a>
+            </nav>
+            <h1>Arcangel of the army</h1>
+        </header>
+        <section>
+
+            <!--Titulo del formulario-->
+            <h3>Formulario de registro</h3>
+
+            <!--Formulario-->
+            <form action="show_data.html" target="_blanck">
+                <label for="firstname">Nombre</label>       <input type="text" name="firstname" placeholder="Ingrese su nombre aqui...">
+                <br><br>
+                <label for="lastname">Apellido</label>      <input type="text" name="lastname" placeholder="Ingrese su apellido aqui...">
+                <br><br>
+                <label for="address">Dirección</label>      <input type="text" name="address" placeholder="Ingrese su dirección aqui...">
+                <br><br>
+                <label for="city">Ciudad</label>            <input type="text" name="city" value="C.A.B.A">
+                <br><br>
+                <label for="zipcode">Código Postal</label>  <input type="text" name="zipcode" placeholder="Ingrese su código postal aqui...">
+                <br><br>
+                <label for="birthday">Fecha de Nacimiento (mm/dd/yyyy)</label>  <input type="text" name="birthday">
+                <br>
+                <br>
+                <p>
+                    Género 
+                    <input type="radio" name="gender" value="Hombre" checked>Hombre 
+                    <input type="radio" name="gender" value="Mujer"> Mujer 
+                    <input type="radio" name="gender" value="Otro">Otro 
+                </p>
+                <p>
+                    Estudios 
+                    <input type="checkbox" name="studies" value="primarios">Primarios 
+                    <input type="checkbox" name="studies" value="secundarios">Secundarios 
+                    <input type="checkbox" name="studies" value="terciario">Terciarios 
+                    <input type="checkbox" name="studies" value="universitarios">Universitarios 
+                    <input type="checkbox" name="studies" value="otro">Otro 
+                </p>
+                <input type="submit" value="Enviar">
+            </form>
+
+            <p>Si usted hace click en el boton "Enviar", la información sera enviara a la página "show_data.html</p>
+        </section>
+        <footer>
+            <a href=""><img src="img/ico/icoFacebook.png"></a>
+            <a href=""><img src="img/ico/icoInstagram.png"></a>
+            <a href=""><img src="img/ico/icoTwiter.png"></a>
+            <a href=""><img src="img/ico/icoWtsp.png"></a>
+            <p>Derechos reservados@2020</p>
+        </footer>
+    </body>
+</html>

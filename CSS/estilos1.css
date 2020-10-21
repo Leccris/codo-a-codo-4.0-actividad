@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color: black;
+    color: white;
+    padding-top: 0.8em
+}
+
+h1 {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+nav a, #mostrar{
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    margin: auto 0.2em;
+    border-radius: 0.3em;
+    padding: 0.2em;
+}
